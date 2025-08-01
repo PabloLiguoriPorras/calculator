@@ -1,7 +1,7 @@
 :root {
-    --dark: #0B132B;
-    --light-bg: #1C2541;
-    --accent: #5BC0BE;
+    --dark: hsl(0 0% 0%);
+    --light-bg: hsl(0 0% 10%);
+    --accent: hsl(0 0% 100%);
 }   
 
 body 
@@ -30,7 +30,7 @@ h1
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
-
+    width: fit-content;
 }
 
 .display 
